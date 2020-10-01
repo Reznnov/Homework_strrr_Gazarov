@@ -24,5 +24,3 @@ def ft_cmp_str(str1, str2, num):
     vtoroe = ft_slice_str(str1, num, 99)
     result = pervoe + str2 + vtoroe
     return result
-    
-    

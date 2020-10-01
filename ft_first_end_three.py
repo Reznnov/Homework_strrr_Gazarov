@@ -15,4 +15,3 @@ def ft_first_end_three(str):
     else:
         for c in range(dlin):
             print(str[0])
-                    

@@ -16,4 +16,3 @@ def ft_slice_str(str, start, end):
         for i in range(start, dlin):
             result += str[i]
         return result
-        
