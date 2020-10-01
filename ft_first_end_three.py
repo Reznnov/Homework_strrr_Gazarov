@@ -11,7 +11,7 @@ def ft_first_end_three(str):
     if dlin > 5:
         for i in range(dlin):
             if i <= 2 or i >= dlin - l:
-                print(str[i])
+                return(str[:3] + str[-3:])
     else:
         for c in range(dlin):
-            print(str[0])
+            return(str[0] * ft_len(str))
